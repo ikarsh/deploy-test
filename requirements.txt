@@ -1,8 +1,6 @@
 Django>=5.2
 psycopg2-binary
 gunicorn
-whitenoise
+uvicorn
+whitenoise[brotli]
 dj-database-url
-requests
-Pillow
-numpy
